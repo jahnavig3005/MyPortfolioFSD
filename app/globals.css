@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body {
+  min-height: 100vh;
+  background: #020617;
+  color: #e2e8f0;
+}
+::selection { background: rgba(56, 189, 248, .35); color: white; }
+.gradient-text {
+  background: linear-gradient(90deg, #fff, #7dd3fc 45%, #c4b5fd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.card {
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: linear-gradient(180deg, rgba(15,23,42,.88), rgba(15,23,42,.62));
+  box-shadow: 0 20px 70px rgba(2, 6, 23, .35);
+}
